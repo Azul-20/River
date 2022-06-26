@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Profesiones</title>
+</head>
+<body class="container-fluid" style="background: linear-gradient(90deg, rgb(6, 5, 7), rgb(99, 43, 152), rgb(26, 43, 175), rgb(47, 165, 169)); width: 100%; height: 100%; display: flex; flex-direction: column">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light" style="border-radius: 10px">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Inicio.html">
+                    <img class="img-fluid" src="img/Nuevo_logo_GW2.png">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse col-10" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Razas.html">Razas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Profesiones.html">Profesiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Artesanías.html">Artesanías</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Expansiones.html">Expansiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Guías.html">Guías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Foro.html">Foro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Iniciar Sesión</a>
+                    </li>
+                </ul>
+                <form class="d-flex col-4" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container" style="width: 60%; padding: 30px">
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link" id="v-pills-mesmer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mesmer" type="button" role="tab" aria-controls="v-pills-mesmer" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Hipnotizador</button>
+          <button class="nav-link" id="v-pills-guardian-tab" data-bs-toggle="pill" data-bs-target="#v-pills-guardian" type="button" role="tab" aria-controls="v-pills-guardian" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Guardián</button>
+          <button class="nav-link" id="v-pills-necromancer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-necromancer" type="button" role="tab" aria-controls="v-pills-necromancer" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Nigromante</button>
+          <button class="nav-link" id="v-pills-ranger-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ranger" type="button" role="tab" aria-controls="v-pills-ranger" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Guardabosques</button>
+          <button class="nav-link" id="v-pills-elementalist-tab" data-bs-toggle="pill" data-bs-target="#v-pills-elementalist" type="button" role="tab" aria-controls="v-pills-elementalist" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Elementalista</button>
+          <button class="nav-link" id="v-pills-warrior-tab" data-bs-toggle="pill" data-bs-target="#v-pills-warrior" type="button" role="tab" aria-controls="v-pills-warrior" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Guerrero</button>
+          <button class="nav-link" id="v-pills-thief-tab" data-bs-toggle="pill" data-bs-target="#v-pills-thief" type="button" role="tab" aria-controls="v-pills-thief" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Ladrón</button>
+          <button class="nav-link" id="v-pills-engineer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-engineer" type="button" role="tab" aria-controls="v-pills-engineer" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Ingeniero</button>
+          <button class="nav-link" id="v-pills-revenant-tab" data-bs-toggle="pill" data-bs-target="#v-pills-revenant" type="button" role="tab" aria-controls="v-pills-revenant" aria-selected="false" style="border: solid 1px rgb(172, 167, 167); border-radius: 8px">Retornado</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade" id="v-pills-mesmer" role="tabpanel" aria-labelledby="v-pills-mesmer-tab" tabindex="0">
+            <div style="display:flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los hipnotizadores son duelistas mágicos cuya arma es el engaño. Utilizan potentes ilusiones, clones y magia fantasmal para confundir a sus enemigos. Los hipnotizadores inclinan la balanza a su favor en cada combate.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/mesmer.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-guardian" role="tabpanel" aria-labelledby="v-pills-guardian-tab" tabindex="0">
+            <div style=" display:flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los guardianes son luchadores comprometidos que protegen a sus aliados y atacan a sus enemigos utilizando el poder de sus virtudes. Los auténticos guardianes son brillantes estrategas y defensores altruistas que saben potenciar a sus aliados para alcanzar la victoria.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/guardian.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-necromancer" role="tabpanel" aria-labelledby="v-pills-necromancer-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los nigromantes, que practican las artes oscuras, aprovechan el poder de los rituales y se curan con magia de sangre. Los nigromantes se alimentan de fuerza vital, que pueden utilizar de forma ofensiva o para retrasar su propia muerte.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/necromancer.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-ranger" role="tabpanel" aria-labelledby="v-pills-ranger-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los guardabosques dependen de su buena vista, su pulso firme y el poder de la naturaleza. Son unos supervivientes sin igual gracias a las trampas, los espíritus de la naturaleza y las leales mascotas que tienen a su servicio, que les permite adaptarse a cualquier situación.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/ranger.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-elementalist" role="tabpanel" aria-labelledby="v-pills-elementalist-tab" tabindex="0">
+            <div style="display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los elementalistas son unos hechiceros polifacéticos que se sirven del fuego, el aire, la tierra y el agua para canalizar la fuerza de los elementos. Lo que les falta de fuerza física lo suplen con versatilidad y la capacidad de infligir un enorme daño.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/elementalist.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-warrior" role="tabpanel" aria-labelledby="v-pills-warrior-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los guerreros son maestros de las armas que confían en la velocidad, la fuerza, la dureza y armadura pesada para sobrevivir en combate. La adrenalina alimenta su poder ofensivo: cuanto más tiempo luche un guerrero, más peligroso será.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/warrior.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-thief" role="tabpanel" aria-labelledby="v-pills-thief-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Los ladrones, expertos en el sigilo y la sorpresa, se mueven por las sombras, desaparecen y les roban objetos a sus rivales para utilizarlos como armas. Los ladrones tienen un estilo de combate acrobático y ágil que hace que resulte difícil golpearles.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/thief.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-engineer" role="tabpanel" aria-labelledby="v-pills-engineer-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>A los ingenieros, como maestros del caos mecánico, les encanta trastear con explosivos, elixires y todo tipo de dispositivos peligrosos. Ayudan a sus aliados con armas alquímicas, despliegan ingeniosos inventos o eliminan a sus enemigos con una amplia gama de minas, bombas y granadas.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/engineer.jpg" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-revenant" role="tabpanel" aria-labelledby="v-pills-revenant-tab" tabindex="0">
+            <div style=" display: flex; flex-direction:row; background: rgba(255, 255, 255, 0.549); border-radius: 8px">
+              <div style="display: flex; float: left; padding: 20px">
+                <p>Gracias a la protección de una armadura pesada y equipando los poderes esquivos de la Niebla, los retornados canalizan las leyendas de Tyria para derrotar a los enemigos, desatar el caos en el campo de batalla y apoyar a sus aliados. Esta profesión es exclusiva de Guild Wars 2: Heart of Thorns™ y Guild Wars 2: Path of Fire™.</p>
+              </div>
+              <div style="display: flex; float: right; height: 380px; padding: 20px">
+                <img src="img/revenant.png" style="border-radius: 50%">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid" style="background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0)); border-radius: 10px;">
+      <div class="container-fluid" style="padding: 30px; margin-top: 30px">
+        <div style="display:flex; justify-content:space-between;">
+          <a href="https://www.guildwars2.com/es/">
+            <img src="img/GW2_logo_cuadro.jpg" style="width: 200px; height: 100px; border-radius: 50%">
+          </a>
+          <a href="https://www.arena.net/es">
+            <img src="img/ArenaNet.png" style="width: 200px; height: 100px">
+          </a>
+          <a href="https://www.tecsup.edu.pe/">
+            <img src="img/tecsup.png" style="width: 200px; height: 100px">
+          </a>
+        </div>
+        <div>
+          <br><br>
+          <ul class="nav justify-content-center text-uppercase" style="font-size: 1.5em">
+            <li class="nav-item">
+              <a class="nav-link" href="Razas.html">Razas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Profesiones.html">Profesiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Artesanías.html">Artesanías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Expansiones.html">Expansiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Guías.html">Guías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Foro.html">Foro</a>
+            </li>
+          </ul>
+      </div>
+        <div style="color: rgb(178, 178, 178); display: flex; flex-direction: row; justify-content: space-around; margin-top: 40px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+          <p>Diseñado por: Rael Rivero E.</p>
+          <p>Correo: rael.rivero01@gmail.com</p>
+          <p>Cel: 993-555-760</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
